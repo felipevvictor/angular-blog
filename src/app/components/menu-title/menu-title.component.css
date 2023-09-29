@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Martian+Mono:wght@600&family=Roboto:wght@100;300;500;700&display=swap');
+
+.container_menu-title h1{
+    color: white;
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-size: 135px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Martian Mono';
+}
+.container_menu-title hr{
+    margin: 15px 0px;
+}
