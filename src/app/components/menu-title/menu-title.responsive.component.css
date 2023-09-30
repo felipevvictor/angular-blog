@@ -1,0 +1,26 @@
+
+@media screen and (min-width: 588px) and (max-width: 728px)
+{
+    .container_menu-title h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 975px)
+{
+    .container_menu-title h1{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 995px)
+{
+    .container_menu-title h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 1242px)
+{
+    .container_menu-title h1{
+        font-size: 80px;
+    }
+}

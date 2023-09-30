@@ -3,9 +3,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    box-sizing: content-box;
+    
 }
-header{
-    margin-top: 15px;
-    display: flex;
-    justify-content:center;
+
+.articles__main{
+    width: auto;
 }
+.articles__others{
+    width: auto;
+}
+

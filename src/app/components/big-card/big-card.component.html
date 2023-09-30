@@ -1,11 +1,11 @@
 <div class="container_big-card">
     <div class="big-card_photo">
-        <img src="https://i.stack.imgur.com/luaq2.png" alt=""height="200px">
+    <img src="{{photoCover}}" alt="" height="200px">
     </div>
     <div class="big-card_title">
-        <h3><a href="#">Titulo</a></h3>
+        <h3><a [routerLink]="['content', Id]">{{cardTitle}}</a></h3>
     </div>
     <div class="big-card_description">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus molestiae, nihil libero, non quam velit iste voluptate quaerat, quos eaque consequuntur quidem repudiandae consequatur quae quia temporibus numquam repellat expedita?Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p>{{cardDescription}}</p>
     </div>
 </div>
