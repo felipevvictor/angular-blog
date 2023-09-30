@@ -8,3 +8,6 @@
     margin-right: 20px;
     list-style: none;
 }
+.container_menu-bar ul li a:hover{
+    color: rgb(192, 192, 192);
+}
